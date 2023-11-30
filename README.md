@@ -65,7 +65,7 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
 - Lucidchart para criação do Digrama de Banco de Dados
 - 
 ## Fluxo Principal do Sistema
-<img src="Documentacao\Fluxo Principal Incluir Transacao.png" alt="Fluxo Incluir Transação" with="400px" height="500px">
+<img src="Documentacao\Fluxo Principal Incluir Transacao.png" alt="Fluxo Incluir Transação">
 
 
 
