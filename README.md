@@ -63,7 +63,7 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
 - Docker para subir os Conteiners de cada serviço e do consumidor de mensagens
 - Draw.io para criação do Diagrama de Arquitetura
 - Lucidchart para criação do Digrama de Banco de Dados
-- 
+
 ## Fluxo Principal do Sistema
 <img src="Documentacao\Fluxo Principal Incluir Transacao.png" alt="Fluxo Incluir Transação">
 
