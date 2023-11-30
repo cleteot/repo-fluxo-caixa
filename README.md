@@ -17,7 +17,7 @@ organizada o saldo financeiro ao final de cada dia.
 O modelo escolhido para definição do desenho do arquitetura foi o c4Model (https://c4model.com/), pois este modelo nos permite ir detalhando o sistema a medida que vamos conhecendo melhor o projeto.
 
 ### Diagrama de contexto do sistema (Nível 1)
-<img src="Documentacao\01.Diagrama de contexto do sistema.png" alt="Diagrama de contexto">
+<img src="Documentacao\01.Diagrama de contexto do sistema.png" alt="Diagrama de contexto" with="50px" height="50px">
 
 ### Diagrama de container (Nível 2)
 <img src="Documentacao\02.Conteiner.png" alt="Diagrama de container">
