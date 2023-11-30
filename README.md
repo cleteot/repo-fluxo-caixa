@@ -34,12 +34,12 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
 ### Definições Arquiteturais, Padrões de Projeto e Frameworks
 1) Microsserviços
     Este projeto será desenvolvido em microsserviços, pois este modelo nos orienta a criarmos serviços independentes que por sua vez tem as seguintes vantagens:
-    Descentralização: Cada microsserviço opera como uma unidade independente e autônoma, geralmente com seu próprio banco de dados.
-    Comunicação: Os microsserviços se comunicam entre si por meio de interfaces bem definidas, como APIs.
-    Escalabilidade Independente: Cada serviço pode ser dimensionado separadamente, permitindo melhor escalabilidade.
-    Resiliência: Se um serviço falha, isso não afeta diretamente outros serviços.
-    Implantação Independente: Cada serviço pode ser construído, testado e implantado independentemente dos outros.
-    Como desvantagem, gerenciar varias partes de sistema e garantir sua consistência.
+. Descentralização: Cada microsserviço opera como uma unidade independente e autônoma, geralmente com seu próprio banco de dados.
+. Comunicação: Os microsserviços se comunicam entre si por meio de interfaces bem definidas, como APIs.
+. Escalabilidade Independente: Cada serviço pode ser dimensionado separadamente, permitindo melhor escalabilidade.
+. Resiliência: Se um serviço falha, isso não afeta diretamente outros serviços.
+. Implantação Independente: Cada serviço pode ser construído, testado e implantado independentemente dos outros.
+. Como desvantagem, gerenciar varias partes de sistema e garantir sua consistência.
 3) Padrões de Projeto
     3.1) DDD (Domain-Driven Design)
       Foca no entendimento profundo do domínio antes da criação de soluções técnicas, o que nos permite primeiro olhar para o negócio e depois como será resolvido técnicamente
