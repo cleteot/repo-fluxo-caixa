@@ -2,16 +2,34 @@ version: '3.4'
 
 services:
     
-
-            
     # Microsserviço de Transacao
     transacaoservice.api:
         image: ${DOCKER_REGISTRY-}transacaoserviceapi
         build:
             context: .
             dockerfile: TransacaoService.Api\Dockerfile
-        depends_on:
-            - rabbitmq
+
+    # Microsserviço de Saldo
+    saldoservice.api:
+        image: ${DOCKER_REGISTRY-}saldoserviceapi
+        build:
+            context: .
+            dockerfile: SaldoService.Api\Dockerfile
+
+    # Microsserviço de Relatorio
+    relatorioservice.api:
+        image: ${DOCKER_REGISTRY-}relatorioserviceapi
+        build:
+            context: .
+            dockerfile: RelatorioService.Api\Dockerfile
+
+    # Microsserviço de Relatorio
+    consumidor_transacao:
+        image: ${DOCKER_REGISTRY-}consumidor
+        build:
+            context: .
+            dockerfile: consumidor_transacao\Dockerfile
+
 networks:
     backend:
         driver: bridge
