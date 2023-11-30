@@ -32,24 +32,24 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
 <img src="Documentacao\Diagrama ER de banco de dados Fluxo de Caixa.jpeg" alt="Diagrama de Banco de Dados" with="400px" height="500px">
 
 ### Definições Arquiteturais, Padrões de Projeto e Frameworks
-1) Microsserviços
+**1) Microsserviços**
     Este projeto será desenvolvido em microsserviços, pois este modelo nos orienta a criarmos serviços independentes que por sua vez tem as seguintes vantagens:
-- Descentralização: Cada microsserviço opera como uma unidade independente e autônoma, geralmente com seu próprio banco de dados.
-- Comunicação: Os microsserviços se comunicam entre si por meio de interfaces bem definidas, como APIs.
-- Escalabilidade Independente: Cada serviço pode ser dimensionado separadamente, permitindo melhor escalabilidade.
-- Resiliência: Se um serviço falha, isso não afeta diretamente outros serviços.
-- Implantação Independente: Cada serviço pode ser construído, testado e implantado independentemente dos outros.
+- **Descentralização**: Cada microsserviço opera como uma unidade independente e autônoma, geralmente com seu próprio banco de dados.
+- **Comunicação**: Os microsserviços se comunicam entre si por meio de interfaces bem definidas, como APIs.
+- **Escalabilidade Independente**: Cada serviço pode ser dimensionado separadamente, permitindo melhor escalabilidade.
+- **Resiliência**: Se um serviço falha, isso não afeta diretamente outros serviços.
+- **Implantação Independente**: Cada serviço pode ser construído, testado e implantado independentemente dos outros.
 - Como desvantagem, gerenciar varias partes de sistema e garantir sua consistência.
-3) Padrões de Projeto
-    3.1) DDD (Domain-Driven Design)
-      Foca no entendimento profundo do domínio antes da criação de soluções técnicas, o que nos permite primeiro olhar para o negócio e depois como será resolvido técnicamente
-    3.2) Repository
-       Fornece uma interface para acessar dados, proporciona um ponto centralizado de leitura e gravação de dados, mantém a lógica de negócios desacopladas.     
-4) Frameworks
-     4.1) EntityFrameWork (ORM)
-       Permite lidarmos diretamente com o objetos, tem suporte a vários provedores de banco de dados. 
-    4.2) AutoMapper
-       Como cada camada da aplicação terá seu objeto de entidade, é comum fazermos a correspondência entre este objetos e o AutoMapper agiliza esta tarefa.
+**2) Padrões de Projeto**
+  - DDD (Domain-Driven Design)
+      - Foca no entendimento profundo do domínio antes da criação de soluções técnicas, o que nos permite primeiro olhar para o negócio e depois como será resolvido técnicamente
+  - Repository
+      - Fornece uma interface para acessar dados, proporciona um ponto centralizado de leitura e gravação de dados, mantém a lógica de negócios desacopladas.     
+**3) Frameworks**
+  - EntityFrameWork (ORM)
+      - Permite lidarmos diretamente com o objetos, tem suporte a vários provedores de banco de dados.
+  - AutoMapper
+      - Como cada camada da aplicação terá seu objeto de entidade, é comum fazermos a correspondência entre este objetos e o AutoMapper agiliza esta tarefa.
 
 
 
