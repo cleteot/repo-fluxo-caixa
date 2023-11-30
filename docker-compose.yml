@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+    
+
+            
+    # Microsserviço de Transacao
+    transacaoservice.api:
+        image: ${DOCKER_REGISTRY-}transacaoserviceapi
+        build:
+            context: .
+            dockerfile: TransacaoService.Api\Dockerfile
+        depends_on:
+            - rabbitmq
+networks:
+    backend:
+        driver: bridge
