@@ -68,14 +68,24 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
 <img src="Documentacao\Fluxo Principal Incluir Transacao.png" alt="Fluxo Incluir Transação">
 
 ## Para testar o projeto
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
+1. Após clonar o projeto
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+2. Padrão inciciar multiplos projetos no visual studio
+- <img src="Documentacao\TestarVisualStudio.png" alt="Multiplos Projetos">
+- <img src="Documentacao\VisualStudio2.JPG" alt="Iniciar Debug">
 
+3. No Visual Studio via projeto docker-compose
+- <img src="Documentacao\VisualStudioDockerCompose.JPG" alt="Docker-Compose via projeto do Visual Studio">
+
+4. Por lina de comando do docker
+- Via DOS, PowerShell ou Terminal Windows
+- Navegar até a pasta da solução
+- digitar: **docker-compose up -d**
+
+## Link dos serviços que serão carregados
+- **Saldo Service:** http://localhost:59750/
+- **Transacao Service:** https://localhost:44373/
+- **Relatorio Service:** https://localhost:44337/
 
 
 
