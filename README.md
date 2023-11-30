@@ -20,14 +20,14 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
 <img src="Documentacao\01.Diagrama de contexto do sistema.png" alt="Diagrama de contexto" with="400px" height="500px">
 
 ### Diagrama de container (Nível 2)
-<img src="Documentacao\02.Conteiner.png" alt="Diagrama de container">
+<img src="Documentacao\02.Conteiner.png" alt="Diagrama de container" with="400px" height="500px">
 
 ### Diagrama de componente API Application (Nível 3)
-<img src="Documentacao\03.ComponenteAPIApplication.png" alt="Componente API Apllication">
+<img src="Documentacao\03.ComponenteAPIApplication.png" alt="Componente API Apllication" with="400px" height="500px">
 
 ### Diagrama de componente API Application (Nível 3)
-<img src="Documentacao\04.ComponenteMensageria.png" alt="Componente Mensageria">
+<img src="Documentacao\04.ComponenteMensageria.png" alt="Componente Mensageria" with="400px" height="500px">
 
 ## Diagrama de Banco de Dados
-<img src="Documentacao\Diagrama ER de banco de dados Fluxo de Caixa.jpeg" alt="Diagrama de Banco de Dados">
+<img src="Documentacao\Diagrama ER de banco de dados Fluxo de Caixa.jpeg" alt="Diagrama de Banco de Dados" with="400px" height="500px">
 
