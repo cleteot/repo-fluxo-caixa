@@ -52,6 +52,8 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
       - Permite lidarmos diretamente com o objetos, tem suporte a vários provedores de banco de dados.
   - AutoMapper
       - Como cada camada da aplicação terá seu objeto de entidade, é comum fazermos a correspondência entre este objetos e o AutoMapper agiliza esta tarefa.
+  - xUnit
+      - Framework para escrever testes unitários, e é possível criar extensões personalizadas para atender requisitos específicos  
 
 ## Ferramentas
 - Visual Studio 2022 para desenvolvimento
