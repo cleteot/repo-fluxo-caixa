@@ -13,7 +13,7 @@ namespace FluxoCaixaTestes.ApplicationTests
         public void RegistrarTransacao_ValidTransaction_NoNotifications()
         {
             // Arrange
-            var transacao = new TransacaoDto { Valor = 100.0m };
+            var transacao = new TransacaoDto { Valor = 100.0m, Data = DateTime.Now };
             var rabbitMQMock = new Mock<IRabbitMQService>();
             var repoMock = new Mock<ITransacaoRepository>();
             var transacaoService = new TransacaoService.Application.Services.TransacaoServices();
@@ -29,7 +29,7 @@ namespace FluxoCaixaTestes.ApplicationTests
         public void RegistrarTransacao_InvalidTransaction_WithNotifications()
         {
             // Arrange
-            var transacao = new TransacaoDto { Valor = -100.0m }; // Exemplo de transação inválida
+            var transacao = new TransacaoDto { Valor = -100.0m, Data = null }; // Exemplo de transação inválida
             var rabbitMQMock = new Mock<IRabbitMQService>();
             var repoMock = new Mock<ITransacaoRepository>();
             var transacaoService = new TransacaoService.Application.Services.TransacaoServices();

@@ -45,11 +45,11 @@ namespace TransacaoService.Application.Services
         private bool ValidarTransacao(Transacao transacao)
         {
             // Lógica de negócio para validar a transação (por exemplo, valor positivo)
-            bool isValid = transacao.Valor > 0;
+            bool isValid = transacao.Data != null;
 
             if (!isValid)
             {
-                AdicionarNotificacao(this, "O valor da transação deve ser positivo.");
+                AdicionarNotificacao(this, "A data deve ser informada.");
             }
 
             return isValid;
