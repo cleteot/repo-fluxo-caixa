@@ -40,11 +40,13 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
 - **Resiliência**: Se um serviço falha, isso não afeta diretamente outros serviços.
 - **Implantação Independente**: Cada serviço pode ser construído, testado e implantado independentemente dos outros.
 - Como desvantagem, gerenciar varias partes de sistema e garantir sua consistência.
+  
 **2) Padrões de Projeto**
   - DDD (Domain-Driven Design)
       - Foca no entendimento profundo do domínio antes da criação de soluções técnicas, o que nos permite primeiro olhar para o negócio e depois como será resolvido técnicamente
   - Repository
-      - Fornece uma interface para acessar dados, proporciona um ponto centralizado de leitura e gravação de dados, mantém a lógica de negócios desacopladas.     
+      - Fornece uma interface para acessar dados, proporciona um ponto centralizado de leitura e gravação de dados, mantém a lógica de negócios desacopladas.
+             
 **3) Frameworks**
   - EntityFrameWork (ORM)
       - Permite lidarmos diretamente com o objetos, tem suporte a vários provedores de banco de dados.
