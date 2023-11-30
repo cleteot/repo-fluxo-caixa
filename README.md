@@ -82,6 +82,11 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
 - Navegar até a pasta da solução
 - digitar: **docker-compose up -d**
 
+## Link dos serviços que serão carregados
+**Saldo Service:** http://localhost:59750/
+**Transacao Service:** https://localhost:44373/
+**Relatorio Service:** https://localhost:44337/
+
 
 
 
