@@ -22,3 +22,9 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
 ### Diagrama de container (Nível 2)
 <img src="Documentacao\02.Container.png" alt="Diagrama de container">
 
+### Diagrama de componente API Application (Nível 3)
+<img src="Documentacao\03.ComponenteAPIApplication.png" alt="Componente API Apllication">
+
+### Diagrama de componente API Application (Nível 3)
+<img src="Documentacao\04.ComponenteMensageria.png" alt="Componente Mensageria">
+
