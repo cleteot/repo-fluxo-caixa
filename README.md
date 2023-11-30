@@ -53,6 +53,17 @@ O modelo escolhido para definição do desenho do arquitetura foi o c4Model (htt
   - AutoMapper
       - Como cada camada da aplicação terá seu objeto de entidade, é comum fazermos a correspondência entre este objetos e o AutoMapper agiliza esta tarefa.
 
+## Ferramentas
+- Visual Studio 2022 para desenvolvimento
+- Linguagem de programação .Net Core 6 (Fornece suporte a longo prazo)
+- Gerenciador de Banco de Dados MS SQL SERVER, hospedado no AZURE
+- Gerenciador de Filas de Mensagens RabbitMQ hospedado na AWS
+- Docker para subir os Conteiners de cada serviço e do consumidor de mensagens
+- Draw.io para criação do Diagrama de Arquitetura
+- Lucidchart para criação do Digrama de Banco de Dados
+
+
+
 
 
 
