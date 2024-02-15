@@ -8,6 +8,8 @@ services:
         build:
             context: .
             dockerfile: TransacaoService.Api\Dockerfile
+        ports: 
+        - "44373:80"
 
     # Microsserviço de Saldo
     saldoservice.api:
